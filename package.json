@@ -5,6 +5,7 @@
   "author": "Marco Seguri <marco@devmap.ch>",
   "keywords": ["map", "software", "developers", "switzerland"],
   "license": "MIT",
+  "browserslist": ["defaults"],
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
