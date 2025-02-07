@@ -1,18 +1,29 @@
 {
   "name": "devmap-ch",
   "version": "1.0.0",
+  "type": "module",
   "description": "A map of software houses in Switzerland",
   "author": "Marco Seguri <marco@devmap.ch>",
-  "keywords": ["map", "software", "developers", "switzerland"],
+  "keywords": [
+    "map",
+    "software",
+    "developers",
+    "switzerland"
+  ],
   "license": "MIT",
-  "browserslist": ["defaults"],
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@biomejs/biome": "latest",
-    "parcel": "latest"
+    "@biomejs/biome": "^1.9.4",
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
   }
 }
