@@ -2,16 +2,15 @@ import "leaflet/dist/leaflet.css";
 import "./styles.css";
 import L from "leaflet";
 import "./leaflet-config";
-import swissBorderGeoJsonString from "bundle-text:../data/ch-2d-half.min.geojson";
+import swissBorder from "../data/ch-2d-half.json";
 import companies from "../data/companies";
 
-const swissBorderGeoJson = JSON.parse(swissBorderGeoJsonString);
-const swissBorder = L.geoJSON(swissBorderGeoJson);
-const swissBorderBounds = swissBorder.getBounds();
+const swissBorderLayer = L.geoJSON(swissBorder);
+const swissBorderBounds = swissBorderLayer.getBounds();
 const map = createMapInside(swissBorderBounds);
 
 map.addLayer(createAttribution());
-map.addLayer(createSwissBorder(swissBorderGeoJson));
+map.addLayer(createSwissBorder(swissBorder));
 map.fitBounds(swissBorderBounds);
 for (const company of companies) {
   createPin(company).addTo(map);

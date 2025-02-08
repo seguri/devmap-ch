@@ -16,11 +16,7 @@
 - Halve the number of coordinates of each ring with:
 
     ```
-    jq '.features[0].geometry.coordinates = [.features[0].geometry.coordinates[] | [.[range(0; length; 2)]]]' ch-2d.geojson > ch-2d-half.geojson
+    jq '.features[0].geometry.coordinates = [.features[0].geometry.coordinates[] | [.[range(0; length; 2)]]]' ch-2d.geojson > ch-2d-half.json
     ```
 
-- Minify with:
-
-    ```
-    jq -c . ch-2d-half.geojson > ch-2d-half.min.geojson
-    ```
+Saving it as json makes the `import` statement automatically parse it.
