@@ -1,29 +1,76 @@
 import "leaflet/dist/leaflet.css";
 import "./styles.css";
 import L from "leaflet";
-import swissBorderText from "bundle-text:../data/ch-2d-half.min.geojson";
+import swissBorderGeoJsonString from "bundle-text:../data/ch-2d-half.min.geojson";
 
-const map = createMap();
-addAttribution(map);
-addSwissBorder(map);
+const swissBorderGeoJson = JSON.parse(swissBorderGeoJsonString);
+const swissBorder = L.geoJSON(swissBorderGeoJson);
+const swissBorderBounds = swissBorder.getBounds();
+const map = createMapInside(swissBorderBounds);
 
-function createMap() {
-  return L.map("map").setView([46.8, 8.2], 8);
+map.addLayer(createAttribution());
+map.addLayer(createSwissBorder(swissBorderGeoJson));
+map.fitBounds(swissBorderBounds);
+
+function createMapInside(maxBounds) {
+  return L.map("map", {
+    minZoom: 7,
+    zoom: 8,
+    maxBounds: maxBounds,
+  });
 }
 
-function addAttribution(map) {
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+function createAttribution() {
+  return L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
       | <a href="https://www.swisstopo.admin.ch/en/geodata/landscape/boundaries3d.html">swisstopo</a>`,
-  }).addTo(map);
+  });
 }
 
-function addSwissBorder(map) {
-  const swissBorderData = JSON.parse(swissBorderText);
-  const pantone485c = "#D20001";
-  L.geoJSON(swissBorderData, {
-    style: {
-      color: pantone485c,
+function createSwissBorder(geoJson) {
+  const pantone485c = "#DC241F";
+  return createMaskAround(geoJson.features[0], {
+    color: pantone485c,
+    fillColor: pantone485c,
+    fillOpacity: 0.2,
+  });
+}
+
+function createMaskAround(feature, featureStyle) {
+  const worldCoords = [
+    [
+      [-180, -90],
+      [-180, 90],
+      [180, 90],
+      [180, -90],
+      [-180, -90],
+    ],
+  ];
+  const maskAroundFeature = {
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        properties: {
+          NAME: "Mask",
+        },
+        geometry: {
+          type: "MultiPolygon",
+          // This should be an array of rings; L tolerates also arrays of arrays of rings
+          coordinates: [worldCoords, feature.geometry.coordinates],
+        },
+      },
+      feature,
+    ],
+  };
+  return L.geoJSON(maskAroundFeature, {
+    style: (feature) => {
+      switch (feature.properties.NAME) {
+        case "Mask":
+          return { fillColor: "black", fillOpacity: 0.7, weight: 0, clickable: false };
+        default:
+          return featureStyle;
+      }
     },
-  }).addTo(map);
+  });
 }
