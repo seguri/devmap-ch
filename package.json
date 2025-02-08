@@ -15,12 +15,15 @@
     "defaults"
   ],
   "scripts": {
+    "format": "biome format --write src",
+    "lint": "biome lint src",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@parcel/transformer-inline-string": "^2.13.3",
     "parcel": "^2.13.3"
   },
   "dependencies": {
