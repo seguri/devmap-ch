@@ -1,7 +1,9 @@
 import "leaflet/dist/leaflet.css";
 import "./styles.css";
 import L from "leaflet";
+import "./leaflet-config";
 import swissBorderGeoJsonString from "bundle-text:../data/ch-2d-half.min.geojson";
+import companies from "../data/companies";
 
 const swissBorderGeoJson = JSON.parse(swissBorderGeoJsonString);
 const swissBorder = L.geoJSON(swissBorderGeoJson);
@@ -11,6 +13,9 @@ const map = createMapInside(swissBorderBounds);
 map.addLayer(createAttribution());
 map.addLayer(createSwissBorder(swissBorderGeoJson));
 map.fitBounds(swissBorderBounds);
+for (const company of companies) {
+  createPin(company).addTo(map);
+}
 
 function createMapInside(maxBounds) {
   return L.map("map", {
@@ -73,4 +78,11 @@ function createMaskAround(feature, featureStyle) {
       }
     },
   });
+}
+
+function createPin([lat, lon, name, url]) {
+  return L.marker([lat, lon], {
+    title: name,
+    alt: name,
+  }).bindPopup(`<a href="${url}">${name}</a>`);
 }
