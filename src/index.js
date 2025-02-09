@@ -79,9 +79,14 @@ function createMaskAround(feature, featureStyle) {
   });
 }
 
-function createPin([lat, lon, name, url]) {
+function createPin([lat, lon, address, name, url]) {
+  const lines = [
+    `<a href="https://${url}" target="_blank">${name}</a>`,
+    `${address.split(",")[0]}`,
+    `${address.split(",")[1]}`,
+  ];
   return L.marker([lat, lon], {
     title: name,
     alt: name,
-  }).bindPopup(`<a href="${url}">${name}</a>`);
+  }).bindPopup(lines.join("<br>"));
 }

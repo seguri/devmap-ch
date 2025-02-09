@@ -2,7 +2,120 @@
   [
     46.99868114735826,
     8.609214570052341,
+    "Bahnhofstrasse 53, 6440 Brunnen",
     "Girsberger Informatik AG",
-    "https://www.giag.ch/de/ueber-uns/karriere"
+    "www.giag.ch/de/ueber-uns/karriere"
+  ],
+  [
+    47.02016164232018,
+    8.655510533411613,
+    "Strehlgasse 14, 6430 Schwyz",
+    "ulrich.digital gmbh",
+    "ulrich.digital"
+  ],
+  [
+    47.40199485304105,
+    8.551151106061775,
+    "Hörnlistrasse 4, 8057 Zürich",
+    "ORCA Systems GmbH",
+    "orcasys.ch"
+  ],
+  [
+    47.03262454506417,
+    8.629074860840984,
+    "Steinbislin 2, 6423 Seewen",
+    "Infocom Hartmann GmbH",
+    "infocom.swiss"
+  ],
+  [
+    47.03542056221709,
+    8.582065805949094,
+    "Niedermatt 11, 6424 Lauerz",
+    "Snapbean Software AG",
+    "www.snapbean.ch"
+  ],
+  [
+    47.380582909605515,
+    8.543010267900275,
+    "Stampfenbachstrasse 48, 8006 Zürich",
+    "DisneyResearch|Studios!",
+    "studios.disneyresearch.com"
+  ],
+  [
+    47.412944524585676,
+    8.547376647093577,
+    "Andreasstrasse 5, 8050 Zürich",
+    "Magic Leap",
+    "www.magicleap.com"
+  ],
+  [
+    47.388661894271905,
+    8.526011857134886,
+    "Limmatstrasse 264, 8005 Zürich",
+    "Sony Music Entertainment",
+    "www.sonymusic.ch"
+  ],
+  [
+    47.449869551932416,
+    8.564984545893608,
+    "The Circle 32, 8058 Zürich",
+    "Oracle",
+    "www.oracle.com/ch-de"
+  ],
+  [
+    47.38606203157834,
+    8.517186815969335,
+    "Hardstrasse 201, 8005 Zürich",
+    "Oracle Labs",
+    "labs.oracle.com"
+  ],
+  [
+    47.37870670428075,
+    8.532337176234613,
+    "Europaallee 39, 8004 Zürich",
+    "NVIDIA",
+    "www.nvidia.com/de-de/about-nvidia/careers"
+  ],
+  [
+    47.35801463622296,
+    8.521089907410762,
+    "Giesshübelstrasse 30, 8045 Zürich",
+    "Meta",
+    "www.metacareers.com"
+  ],
+  [
+    47.3748130730788,
+    8.5358027955565,
+    "Löwenstrasse 29, 8001 Zürich",
+    "Apple",
+    "jobs.apple.com/en-us/search?location=switzerland-CHEC"
+  ],
+  [
+    47.364485914182715,
+    8.534532034154955,
+    "Genferstrasse 11, 8002 Zürich",
+    "DFINITY",
+    "dfinity.org/about/#jobs"
+  ],
+  [
+    47.36168485297178,
+    8.535165094829958,
+    "Mythenquai 10, 8002 Zürich",
+    "AWS",
+    "aws.amazon.com/careers"
+  ],
+  [
+    47.345564881616504,
+    8.533234687310348,
+    "Seestrasse 356, 8038 Zürich",
+    "Microsoft",
+    "careers.microsoft.com"
+  ],
+  [
+    47.31027102114677,
+    8.544742094374312,
+    "Säumerstrasse 4, 8803 Rüschlikon",
+    "IBM Research",
+    "research.ibm.com/labs/zurich"
   ]
 ]
