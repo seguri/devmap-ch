@@ -1,7 +1,9 @@
 import "leaflet/dist/leaflet.css";
+import "leaflet.fullscreen/Control.FullScreen.css";
 import "./styles.css";
 import L from "leaflet";
 import "./leaflet-config";
+import "leaflet.fullscreen";
 import swissBorder from "../data/ch-2d-half.json";
 import companies from "../data/companies";
 
@@ -19,8 +21,9 @@ for (const company of companies) {
 function createMapInside(maxBounds) {
   return L.map("map", {
     minZoom: 7,
-    zoom: 8,
+    zoom: 9,
     maxBounds: maxBounds,
+    fullscreenControl: true,
   });
 }
 
