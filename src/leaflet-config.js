@@ -1,7 +1,9 @@
 import "leaflet/dist/leaflet.css";
 import "leaflet.fullscreen/Control.FullScreen.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
 import L from "leaflet";
 import "leaflet.fullscreen";
+import "leaflet.markercluster";
 import markerIcon from "./images/marker-icon.png";
 import markerIcon2x from "./images/marker-icon-2x.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";

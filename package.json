@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "leaflet": "^1.9.4",
-    "leaflet.fullscreen": "^3.0.2"
+    "leaflet.fullscreen": "^3.0.2",
+    "leaflet.markercluster": "^1.5.3"
   }
 }

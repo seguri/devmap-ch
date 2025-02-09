@@ -1,7 +1,7 @@
 import L from "leaflet";
 import swissBorder from "../data/ch-2d-half.json";
 
-const PANTONE_485C = "#DC241F";
+const PANTONE_485C = "#dc241f";
 
 function getSwissBorderBounds() {
   return L.geoJSON(swissBorder).getBounds();

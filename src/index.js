@@ -6,10 +6,24 @@ import companies from "../data/companies";
 
 const map = createMapInside(getSwissBorderBounds());
 
-map.addLayer(highlightedSwitzerlandLayer());
-map.fitBounds(getSwissBorderBounds());
-for (const company of companies) {
-  createPin(company).addTo(map);
+highlightSwitzerland(map);
+fitBoundsToSwissBorder(map);
+markCompanies(map);
+
+function highlightSwitzerland(map) {
+  map.addLayer(highlightedSwitzerlandLayer());
+}
+
+function fitBoundsToSwissBorder(map) {
+  map.fitBounds(getSwissBorderBounds());
+}
+
+function markCompanies(map) {
+  const markers = L.markerClusterGroup();
+  for (const company of companies) {
+    markers.addLayer(createPin(company));
+  }
+  map.addLayer(markers);
 }
 
 function createPin([lat, lon, address, name, url]) {

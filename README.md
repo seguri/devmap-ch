@@ -1,5 +1,7 @@
 # devmap.ch
 
+![screenshot](screenshot.jpg)
+
 ## SHP to GeoJSON
 
 - Download the SHP from [swisstopo](https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d)
