@@ -19,7 +19,7 @@ function fitBoundsToSwissBorder(map) {
 }
 
 function markCompanies(map) {
-  const markers = L.markerClusterGroup();
+  const markers = L.markerClusterGroup({ showCoverageOnHover: false });
   for (const company of companies) {
     markers.addLayer(createPin(company));
   }
