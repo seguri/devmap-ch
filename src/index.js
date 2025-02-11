@@ -26,14 +26,17 @@ function markCompanies(map) {
   map.addLayer(markers);
 }
 
-function createPin([lat, lon, address, name, url]) {
-  const lines = [
-    `<a href="https://${url}" target="_blank">${name}</a>`,
-    `${address.split(",")[0]}`,
-    `${address.split(",")[1]}`,
-  ];
+function createPin([lat, lon, address, ...companyInfo]) {
+  const lines = [];
+  for (let i = 0; i < companyInfo.length; i += 2) {
+    const name = companyInfo[i];
+    const url = companyInfo[i + 1];
+    lines.push(`<a href="https://${url}" target="_blank">${name}</a>`);
+  }
+  lines.push(address.split(",")[0]);
+  lines.push(address.split(",")[1]);
   return L.marker([lat, lon], {
-    title: name,
-    alt: name,
+    title: address,
+    alt: address,
   }).bindPopup(lines.join("<br>"));
 }
