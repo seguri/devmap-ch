@@ -46,7 +46,12 @@
     8.543010267900275,
     "Stampfenbachstrasse 48, 8006 Zürich",
     "DisneyResearch|Studios!",
-    "studios.disneyresearch.com",
+    "studios.disneyresearch.com"
+  ],
+  [
+    47.380582909605515,
+    8.543010267900275,
+    "Stampfenbachstrasse 48, 8006 Zürich",
     "GetYourGuide",
     "www.getyourguide.careers/location/zurich"
   ],
@@ -62,7 +67,7 @@
     8.526011857134886,
     "Limmatstrasse 264, 8005 Zürich",
     "Sony Music Entertainment",
-    "www.sonymusic.ch"
+    "www.sonymusic.ch/company/career"
   ],
   [
     47.449869551932416,
@@ -139,7 +144,7 @@
     9.370589375951903,
     "Unterstrasse 4, 9000 St.Gallen",
     "Frontify",
-    "www.frontify.com/en/career#open-positions"
+    "jobs.lever.co/frontify?location=Sankt%20Gallen%20Metropolitan%20Area"
   ],
   [
     46.92835457541684,
@@ -153,7 +158,7 @@
     8.52241399335302,
     "Giesshübelstrasse 4, 8045 Zürich",
     "APG|SGA AG",
-    "www.apgsga.ch/de/ueber-uns/offene-stellen-karriere/jobs/"
+    "www.apgsga.ch/de/ueber-uns/offene-stellen-karriere/jobs"
   ],
   [
     47.41366743993942,
@@ -167,7 +172,35 @@
     8.542267692812276,
     "Affolternstrasse 42, 8050 Zürich",
     "Flexion Robotics",
-    "apply.workable.com/flexion-robotics/"
+    "apply.workable.com/flexion-robotics"
+  ],
+  [
+    46.53157719325349,
+    6.599313693121658,
+    "Rte des Flumeaux 48, 1008 Prilly",
+    "MageMetrics SA",
+    "www.magemetrics.com"
+  ],
+  [
+    47.372823893460236,
+    8.53097530671365,
+    "Werdstrasse 21, 8004 Zürich",
+    "Doodle AG",
+    "careers.doodle.com/jobs"
+  ],
+  [
+    47.372823893460236,
+    8.53097530671365,
+    "Werdstrasse 21, 8004 Zürich",
+    "Lakera AI",
+    "www.lakera.ai/careers"
+  ],
+  [
+    47.378380802090206,
+    8.493877835707437,
+    "Albisriederstrasse 253, 8047 Zürich",
+    "Norm Technologies AG",
+    "www.norm.ch/en/about-us#jobs"
   ],
   [
     47.363523203031164,
@@ -175,5 +208,215 @@
     "Räffelstrasse 26, 8045 Zürich",
     "Bring! Labs AG",
     "www.getbring.com/en/careers#open-positions-section"
+  ],
+  [
+    47.3936086881735,
+    8.418274100238529,
+    "In der Luberzen 1, 8902 Urdorf",
+    "Ärztekasse",
+    "www.aerztekasse.ch/aerztekasse/jobangebote"
+  ],
+  [
+    47.392414028116086,
+    8.416916819765266,
+    "Grossmattstrasse 9, 8902 Urdorf",
+    "Dun & Bradstreet Schweiz AG",
+    "jobs.lever.co/dnb"
+  ],
+  [
+    47.371245975894524,
+    8.539064302373845,
+    "Bahnhofstrasse 36, 8010 Zürich",
+    "Julius Bär",
+    "www.juliusbaer.com/en/careers"
+  ],
+  [
+    47.17511793465616,
+    8.512871227565734,
+    "Gubelstrasse 28, 6300 Zug",
+    "Interactive Brokers",
+    "job-boards.greenhouse.io/ibkr"
+  ],
+  [
+    47.39066320053732,
+    8.51491424228478,
+    "Pfingstweidstrasse 60b, 8005 Zürich",
+    "Digitec Galaxus AG",
+    "www.galaxus.ch/it/joboffer"
+  ],
+  [
+    47.05045307789286,
+    8.367245910878834,
+    "Riedweg 6, Meggen",
+    "Consulteer AG",
+    "www.consulteer.com/careers"
+  ],
+  [
+    47.04839648345716,
+    8.304927842624126,
+    "Pilatusstrasse 28, 6003 Luzern",
+    "pEAX AG",
+    "peax.ch/privat/about/jobs"
+  ],
+  [
+    47.390784699461875,
+    8.516384582504177,
+    "Technoparkstrasse 1, 8005 Zürich",
+    "Rivia",
+    "www.rivia.com/careers"
+  ],
+  [
+    47.38786970757218,
+    8.51725967334724,
+    "Pfingstweidstrasse 11, 8005 Zürich",
+    "Deloitte AG",
+    "apply.deloitte.ch/CHCareers/SearchJobs"
+  ],
+  [
+    47.546582191171616,
+    7.594062077091119,
+    "Peter Merian-Strasse 80, 4052 Basel",
+    "Adobe AG",
+    "careers.adobe.com/us/en/home"
+  ],
+  [
+    47.17653650618336,
+    8.50692063557384,
+    "General-Guisan-Strasse 8, 6300 Zug",
+    "Callista",
+    "https://callistaace.recruitee.com/"
+  ],
+  [
+    47.3679374829735,
+    8.53675131795873,
+    "Claridenstrasse 41, 8002 Zürich",
+    "Robert Walters Recruitment Agency Zurich",
+    "www.robertwalters.ch"
+  ],
+  [
+    47.14731804050494,
+    8.439364164432789,
+    "Blegi 5, 6343 Risch-Rotkreuz",
+    "enovetic ag",
+    "www.enovetic.ch/jobs/"
+  ],
+  [
+    47.161892049261986,
+    8.44054756409838,
+    "Bösch 71, 6331 Hünenberg",
+    "easylearn AG",
+    "www.easylearn.ch/de/unternehmen/jobs"
+  ],
+  [
+    47.161784592292975,
+    8.441101560995241,
+    "Bösch 73, 6331 Hünenberg",
+    "Cashare AG",
+    "join.com/companies/cashare"
+  ],
+  [
+    47.16090215669716,
+    8.443208163742337,
+    "Rothusstrasse 15, 6331 Hünenberg",
+    "INTRASOFT AG",
+    "www.pqforce.com/resources/learn-more/about-us/"
+  ],
+  [
+    47.360443425849766,
+    8.51604940670946,
+    "Uetlibergstrasse 134a, 8045 Zürich",
+    "Sygnum Bank AG",
+    "www.sygnum.com/careers-portal/"
+  ],
+  [
+    47.16596854833869,
+    8.515800616958012,
+    "Kolinplatz 15, 6300 Zug",
+    "AMINA Bank AG",
+    "aminagroup.com/careers/"
+  ],
+  [
+    47.37626439090091,
+    8.544125889292012,
+    "Niederdorfstrasse 88, 8001 Zürich",
+    "adnexo GmbH",
+    "www.adnexo.ch/en/about-us/vacancies/"
+  ],
+  [
+    47.433350861725415,
+    8.559296573857514,
+    "Cherstrasse 4, 8152 Opfikon",
+    "ServiceNow Switzerland GmbH",
+    "careers.servicenow.com/locations/emea/switzerland/"
+  ],
+  [
+    47.174276335384725,
+    8.51752587983846,
+    "Baarerstrasse 38, 6300 Zug",
+    "Emea Recruitment Gmbh",
+    "www.emearecruitment.com/jobs/search"
+  ],
+  [
+    47.490319679469,
+    8.766840222369195,
+    "Etzbergstrasse 37, 8405 Winterthur",
+    "dreamleap",
+    "www.dreamleap.com/jobs"
+  ],
+  [
+    47.228107156080064,
+    8.824038932177688,
+    "Neue Jonastrasse 59, 8640 Rapperswil-Jona",
+    "healthinal AG",
+    "www.healthinal.com/jobs"
+  ],
+  [
+    47.381140749084054,
+    8.542062574504458,
+    "Zweierstrasse 165, 8003 Zürich",
+    "Caplena AG",
+    "caplena.bamboohr.com/careers"
+  ],
+  [
+    47.186305825532266,
+    8.491314044014551,
+    "Chollerstrasse 35, 6300 Zug",
+    "Sphynx Technology Solutions AG",
+    "www.sphynx.ch/about/"
+  ],
+  [
+    47.391661091636635,
+    8.069519911251959,
+    "Webereiweg 3, 5033 Buchs",
+    "Swisslog",
+    "www.swisslog.com/en-gb/careers/openings"
+  ],
+  [
+    47.448924183573425,
+    8.567775205988784,
+    "The Circle 68, 8058 Zürich",
+    "Abraxas Informatik AG",
+    "www.abraxas.ch/de/karriere/offene-stellen"
+  ],
+  [
+    47.45021159123618,
+    8.56522957782118,
+    "The Circle 37, 8058 Zürich",
+    "Inventx AG",
+    "www.inventx.ch/karriere/jobs/"
+  ],
+  [
+    47.38560894993125,
+    8.54400170958104,
+    "Ottikerstrasse 14, 8006 Zürich",
+    "novu ag",
+    "novu.ch/offene-stellen"
+  ],
+  [
+    47.545054276088734,
+    7.587246887523779,
+    "Gempenstrasse 10, 4053 Basel",
+    "novy AG",
+    "novu.ch/offene-stellen"
   ]
 ]
