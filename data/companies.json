@@ -46,7 +46,12 @@
     8.543010267900275,
     "Stampfenbachstrasse 48, 8006 Zürich",
     "DisneyResearch|Studios!",
-    "studios.disneyresearch.com",
+    "studios.disneyresearch.com"
+  ],
+  [
+    47.380582909605515,
+    8.543010267900275,
+    "Stampfenbachstrasse 48, 8006 Zürich",
     "GetYourGuide",
     "www.getyourguide.careers/location/zurich"
   ],
@@ -153,7 +158,7 @@
     8.52241399335302,
     "Giesshübelstrasse 4, 8045 Zürich",
     "APG|SGA AG",
-    "www.apgsga.ch/de/ueber-uns/offene-stellen-karriere/jobs/"
+    "www.apgsga.ch/de/ueber-uns/offene-stellen-karriere/jobs"
   ],
   [
     47.41366743993942,
@@ -167,7 +172,35 @@
     8.542267692812276,
     "Affolternstrasse 42, 8050 Zürich",
     "Flexion Robotics",
-    "apply.workable.com/flexion-robotics/"
+    "apply.workable.com/flexion-robotics"
+  ],
+  [
+    46.53157719325349,
+    6.599313693121658,
+    "Rte des Flumeaux 48, 1008 Prilly",
+    "MageMetrics SA",
+    "www.magemetrics.com"
+  ],
+  [
+    47.372823893460236,
+    8.53097530671365,
+    "Werdstrasse 21, 8004 Zürich",
+    "Doodle AG",
+    "careers.doodle.com/jobs"
+  ],
+  [
+    47.372823893460236,
+    8.53097530671365,
+    "Werdstrasse 21, 8004 Zürich",
+    "Lakera AI",
+    "www.lakera.ai/careers"
+  ],
+  [
+    47.378380802090206,
+    8.493877835707437,
+    "Albisriederstrasse 253, 8047 Zürich",
+    "Norm Technologies AG",
+    "www.norm.ch/en/about-us#jobs"
   ],
   [
     47.363523203031164,
@@ -175,5 +208,33 @@
     "Räffelstrasse 26, 8045 Zürich",
     "Bring! Labs AG",
     "www.getbring.com/en/careers#open-positions-section"
+  ],
+  [
+    47.3936086881735,
+    8.418274100238529,
+    "In der Luberzen 1, 8902 Urdorf",
+    "Ärztekasse",
+    "www.aerztekasse.ch/aerztekasse/jobangebote"
+  ],
+  [
+    47.392414028116086,
+    8.416916819765266,
+    "Grossmattstrasse 9, 8902 Urdorf",
+    "Dun & Bradstreet Schweiz AG",
+    "jobs.lever.co/dnb"
+  ],
+  [
+    47.371245975894524,
+    8.539064302373845,
+    "Bahnhofstrasse 36, 8010 Zürich",
+    "Julius Bär",
+    "www.juliusbaer.com/en/careers"
+  ],
+  [
+    47.17511793465616,
+    8.512871227565734,
+    "Gubelstrasse 28, 6300 Zug",
+    "Interactive Brokers",
+    "job-boards.greenhouse.io/ibkr"
   ]
 ]
