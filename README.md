@@ -1,6 +1,6 @@
 # devmap.ch
 
-![screenshot](screenshot.jpg)
+![screenshot](public/images/screenshot.jpg)
 
 ## SHP to GeoJSON
 

@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 48 72" width="48" height="72" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#DC241F" d="M24 0C10.746 0 0 10.746 0 24c0 18 24 48 24 48s24-30 24-48c0-13.254-10.746-24-24-24z"/>
-    <circle fill="white" cx="24" cy="24" r="8"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="72"><path fill="#DC241F" d="M24 0C10.746 0 0 10.746 0 24c0 18 24 48 24 48s24-30 24-48C48 10.746 37.254 0 24 0"/><circle cx="24" cy="24" r="8" fill="#fff"/></svg>

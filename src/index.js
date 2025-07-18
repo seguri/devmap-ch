@@ -28,15 +28,18 @@ function markCompanies(map) {
 
 function createPin([lat, lon, address, ...companyInfo]) {
   const lines = [];
+  const companyNames = [];
   for (let i = 0; i < companyInfo.length; i += 2) {
     const name = companyInfo[i];
     const url = companyInfo[i + 1];
     lines.push(`<a href="https://${url}" target="_blank">${name}</a>`);
+    companyNames.push(name);
   }
   lines.push(address.split(",")[0]);
   lines.push(address.split(",")[1]);
+  const title = `${companyNames.join(", ")} @ ${address}`;
   return L.marker([lat, lon], {
-    title: address,
-    alt: address,
+    title: title,
+    alt: title,
   }).bindPopup(lines.join("<br>"));
 }
